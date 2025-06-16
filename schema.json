@@ -1,0 +1,22 @@
+{
+    "tables": {
+        "customers": {
+            "columns": {
+                "id": "integer",
+                "name": "string",
+                "purchase": "string",
+                "date": "date"
+            },
+            "primary_key": "id"
+        },
+        "queries": {
+            "columns": {
+                "id": "integer",
+                "query": "string",
+                "response": "string",
+                "timestamp": "datetime"
+            },
+            "primary_key": "id"
+        }
+    }
+}

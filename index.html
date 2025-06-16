@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Query System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <!-- YouTube Background -->
+    <div class="video-background">
+        <iframe
+            id="youtubeBackground"
+            src="https://www.youtube.com/embed/kSZddHca0ME?autoplay=1&mute=1&loop=1&playlist=kSZddHca0ME"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+        ></iframe>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>AI Query System</h1>
+    </div>
+
+    <!-- Chat Area -->
+    <div class="chat-area" id="chatArea">
+        <div class="message bot-message">Hello! Ask me about customers or purchases.</div>
+    </div>
+
+    <!-- Input -->
+    <div class="input-bar">
+        <textarea id="queryInput" placeholder="Type your query..."></textarea>
+        <button id="submitQuery">Send</button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

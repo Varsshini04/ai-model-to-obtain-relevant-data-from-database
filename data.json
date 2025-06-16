@@ -1,0 +1,145 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "Alice Johnson",
+            "purchase": "Laptop",
+            "date": "2024-01-15"
+        },
+        {
+            "id": 2,
+            "name": "Bob Smith",
+            "purchase": "Smartphone",
+            "date": "2024-01-20"
+        },
+        {
+            "id": 3,
+            "name": "Charlie Brown",
+            "purchase": "Headphones",
+            "date": "2024-02-10"
+        }
+    ],
+    "queries": [
+        {
+            "id": 1,
+            "query": "Alice",
+            "response": "Here are the matching customers:\nName: Alice Johnson, Purchase: Laptop, Date: 2024-01-15",
+            "timestamp": "2025-02-22T07:43:02.569317Z"
+        },
+        {
+            "id": 2,
+            "query": "hi\n",
+            "response": "No matching customers found.",
+            "timestamp": "2025-02-22T08:07:34.083745Z"
+        },
+        {
+            "id": 3,
+            "query": "kavin\n",
+            "response": "No matching customers found.",
+            "timestamp": "2025-02-22T08:07:41.036294Z"
+        },
+        {
+            "id": 4,
+            "query": "show Bob smith",
+            "response": "No matching customers found.",
+            "timestamp": "2025-02-22T08:08:04.747304Z"
+        },
+        {
+            "id": 5,
+            "query": "name\n",
+            "response": "No matching customers found.",
+            "timestamp": "2025-02-22T08:09:24.313324Z"
+        },
+        {
+            "id": 6,
+            "query": "name bob smith",
+            "response": "No matching customers found.",
+            "timestamp": "2025-02-22T08:09:31.244589Z"
+        },
+        {
+            "id": 7,
+            "query": "HI",
+            "response": "No matching customers found.",
+            "timestamp": "2025-02-22T08:13:51.527025Z"
+        },
+        {
+            "id": 8,
+            "query": "Bob Smith",
+            "response": "Here are the matching customers:\nName: Bob Smith, Purchase: Smartphone, Date: 2024-01-20",
+            "timestamp": "2025-02-22T08:14:08.176823Z"
+        },
+        {
+            "id": 9,
+            "query": "Laptop",
+            "response": "Here are the matching customers:\nName: Alice Johnson, Purchase: Laptop, Date: 2024-01-15",
+            "timestamp": "2025-02-22T08:14:18.920405Z"
+        },
+        {
+            "id": 10,
+            "query": "Alice Johnson",
+            "response": "Here are the matching customers:\nName: Alice Johnson, Purchase: Laptop, Date: 2024-01-15",
+            "timestamp": "2025-02-22T08:14:30.773597Z"
+        },
+        {
+            "id": 11,
+            "query": "i love Alice Johnson",
+            "response": "Here are the matching customers:\nName: Alice Johnson, Purchase: Laptop, Date: 2024-01-15\nName: Bob Smith, Purchase: Smartphone, Date: 2024-01-20\nName: Charlie Brown, Purchase: Headphones, Date: 2024-02-10",
+            "timestamp": "2025-02-22T08:14:42.301908Z"
+        },
+        {
+            "id": 12,
+            "query": "names starting with letter A",
+            "response": "Here are the matching customers:\nName: Alice Johnson, Purchase: Laptop, Date: 2024-01-15\nName: Bob Smith, Purchase: Smartphone, Date: 2024-01-20\nName: Charlie Brown, Purchase: Headphones, Date: 2024-02-10",
+            "timestamp": "2025-02-22T08:19:26.732102Z"
+        },
+        {
+            "id": 13,
+            "query": "hello",
+            "response": "No matching data found.",
+            "timestamp": "2025-02-22T08:30:25.427336Z"
+        },
+        {
+            "id": 14,
+            "query": "hi",
+            "response": [
+                {
+                    "name": "Alice Johnson",
+                    "purchase": "Laptop"
+                },
+                {
+                    "name": "Bob Smith",
+                    "purchase": "Smartphone"
+                },
+                {
+                    "name": "Charlie Brown",
+                    "purchase": "Headphones"
+                }
+            ],
+            "timestamp": "2025-02-22T08:40:11.772011Z"
+        },
+        {
+            "id": 15,
+            "query": "hello",
+            "response": "No matching data found.",
+            "timestamp": "2025-02-22T08:40:20.371249Z"
+        },
+        {
+            "id": 16,
+            "query": "hi",
+            "response": "Greetings! How may I assist you today?",
+            "timestamp": "2025-02-22T08:44:32.034867Z"
+        },
+        {
+            "id": 17,
+            "query": "Bob Smith in database",
+            "response": "| Field | Value |\n|---|---|\n| First Name | Bob |\n| Last Name | Smith |\n| Age | 35 |\n| Occupation | Software Engineer |\n| Address | 123 Main Street, Anytown, CA 12345 |\n| Phone Number | (555) 555-1212 |\n| Email Address | bob.smith@example.com |",
+            "timestamp": "2025-02-22T08:44:51.262473Z"
+        },
+        {
+            "id": 18,
+            "query": "bob",
+            "response": "\ud83d\udc64 **Name:** Bob Smith<br>\ud83d\uded2 **Purchase:** Smartphone<br>\ud83d\udcc5 **Date:** 2024-01-20<br>------------------------<br>",
+            "timestamp": "2025-03-01T08:12:44.485487Z"
+        }
+    ]
+}
